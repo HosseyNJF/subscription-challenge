@@ -1,0 +1,19 @@
+meta {
+  name: Create Post
+  type: http
+  seq: 2
+}
+
+post {
+  url: http://localhost:3060/api/posts
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "title": "Sample Post 1",
+    "content": "Sample Content 2",
+    "website_domain": "google2.com"
+  }
+}
