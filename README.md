@@ -14,6 +14,12 @@ Make sure you have Docker installed and running, and run this command:
 
 `./vendor/bin/sail up`
 
+After that, run this command periodically to send posts to subscribers:
+`./vendor/bin/sail artisan app:process-subscription-notifications`
+
+This background worker must be running to send the actual emails:
+`./vendor/bin/sail artisan queue:work`
+
 ## How to test?
 
 There is a Postman collection file, located in this address:
