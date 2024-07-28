@@ -8,7 +8,7 @@ It is a simple subscription platform in which users can subscribe to a website -
 
 ## How to run?
 
-This project uses Laravel Sail to east development.
+This project uses Laravel Sail to ease development.
 
 Make sure you have Docker installed and running, and run this command:
 
